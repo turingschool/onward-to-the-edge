@@ -17,6 +17,11 @@ Indulge curiosity.<br />
 Discover.<br />
 Play.<br />
 
+## Status
+
+Many of these are just ideas without a project to go along with them.
+If you find one interesting, let me know and we'll fill out the
+specification and requirements.
 
 ## Data Structures and Algorithms
 
@@ -48,9 +53,11 @@ We will explore common data structures, their algorithms,
 and other algorithms in this section.
 
 * Calculations
-  * `luhn_algorithm` difficulty: low<br />
+  * [Luhn algorithm](https://github.com/turingschool/data_structures_and_algorithms/tree/master/luhn_algorithm)
+    difficulty: low<br />
     An algorithm used to validate credit card numbers
-  * `md5` difficulty: medium<br />
+  * [MD5](https://github.com/turingschool/data_structures_and_algorithms/tree/master/md5)
+    difficulty: medium<br />
     A hashing algorithm -- takes a piece of data in binary format,
     and traverses through it, performing calculations as it goes,
     For example, running Mac OSX's md5 program against itself:
@@ -61,14 +68,16 @@ and other algorithms in this section.
     If your computer comes out with the same value, then the assumption
     is that you and I have the same program (it is bit-for-bit equivalent).
 * Collections
-  * `linked_lists` difficulty: low<br />
+  * [Linked lists](https://github.com/turingschool/data_structures_and_algorithms/tree/master/linked_lists)
+    difficulty: low<br />
     Any collection where each element contains a reference to the next element.
     These are the fundamental building blocks of lisp.
     While their representation may change, they are ubiquitous.
     For example, a group doing a secret santa is a linked list.
     I will buy a gift for you, and you will buy a gift for the next person,
     who will buy a gift for the next person, etc.
-  * `binary_search_trees` difficulty: medium<br />
+  * [Binary Search Tree](https://github.com/turingschool/data_structures_and_algorithms/tree/master/binary_trees)
+    difficulty: medium<br />
     Any collection where each element has a reference to two other elements,
     called "left" and "right", and no elements have more than one link pointing to them.
     If the tree is balanced (each element has the same number of elements down its left branch,
@@ -76,7 +85,8 @@ and other algorithms in this section.
     of elements every time you go down a path. Hence, it can be used to very quickly
     search for items (in a tree with 1 million nodes, you'd have to look at fewer than 20
     before finding the one you wanted)
-  * `a_star` difficulty: medium<br />
+  * [A\*](https://github.com/turingschool/data_structures_and_algorithms/tree/master/a_star)
+    difficulty: medium<br />
     A\* is an algorithm for searching when searching is difficult because either
     the search space is so large (possibly infinite) that you can't
     check all the options to see if any of them work (e.g. the number of chess games
@@ -86,10 +96,22 @@ and other algorithms in this section.
     This attempt is called a heuristic, and it A\* works by moving towards the element
     with the best heuristic at the edge of its horizon.
     Thus, it's rather similar to a game of warmer/colder.
+  * [Heap](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
+    difficulty: medium<br />
+    If you're interested in this, let me know and I'll fill it out.
+* Sorting<br />
+  If you're interested in any of these, let me know and I'll fill out the details.
+  * Bubble sort
+  * Insertion sort
+  * Selection sort
+  * Quick sort
+  * Heap sort
+  * Merge sort
 * Graphs
-  * `pathfinding` difficulty: medium<br />
-  In this challenge, you will be given a maze ([example](https://github.com/turingschool/data_structures_and_algorithms/blob/25b7e0080198d26ce75ea0970deadb496d0a62ba/pathfinding/test/fixtures/landscape1.txt)),
-  and must locate a path from the start to the finish.
+  * [Pathfinding](https://github.com/turingschool/data_structures_and_algorithms/tree/master/pathfinding)
+    difficulty: medium<br />
+    In this challenge, you will be given a maze ([example](https://github.com/turingschool/data_structures_and_algorithms/blob/25b7e0080198d26ce75ea0970deadb496d0a62ba/pathfinding/test/fixtures/landscape1.txt)),
+    and must locate a path from the start to the finish.
 
 ## The internet
 
@@ -100,11 +122,10 @@ It is common to do work on the internet without understanding
 the layers you're building on top of. This set of projects
 is intended to explore these layers.
 
-* build your own webserver repo       - https://github.com/wrightcheek/build-a-webserver
-* build your own rack                 -
-* build your own Sinatra              -
+* [Build a webserver](https://github.com/wrightcheek/build-a-webserver)
+* Build Rack
+* Build Sinatra
 
 ## Concurrency
 
-* Threads - https://github.com/JoshCheek/event_loop
-
+* [Threads](https://github.com/JoshCheek/event_loop)
